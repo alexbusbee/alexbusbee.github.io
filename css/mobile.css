@@ -1,0 +1,31 @@
+/** Mobile CSS **/
+.jumbotron {
+  background-image: url('../images/ireland-small.jpg');
+}
+  footer {
+  background-image: url('../images/tyler-farrell-teaching-small.jpg');
+  }
+@media screen and (min-width: 500px) {
+  .jumbotron {
+  background-image: url('../images/ireland-large.jpg');
+  }
+}
+@media screen and (min-width: 500px) {
+  footer {
+  background-image: url('../images/tyler-farrell-teaching-medium.jpg');
+  }
+}
+@media screen and (min-width: 1000px) {
+  footer {
+  background-image: url('../images/tyler-farrell-teaching-large.jpg');
+  }
+}
+h1 {
+  margin: 0;
+}
+#nav {
+  margin: .5em 0 0;
+}
+#nav > div > p {
+    text-align: center;
+}

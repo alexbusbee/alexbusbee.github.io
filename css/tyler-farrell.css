@@ -1,0 +1,78 @@
+p, li {
+  font-size: 1.5em;
+}
+.jumbotron {
+height: 40em;
+background: no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.jumbotron, .btn {
+  color: #fff;
+}
+h1 {
+  font-size: 5em;
+  margin: 2em 0 0;
+}
+h3 {
+    line-height: 200%;
+}
+.btn {
+  font-size: 1.5em;
+}
+.btn:focus {
+  color: #fff;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #000;
+}
+#main p, li {
+  font-color: #fff;
+  line-height: 200%;
+}
+#main > div {
+	margin: 3em 0;
+}
+.small {
+  font-variant: small-caps;
+  font-size: 1.5em;
+}
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.gap-right {
+  margin-right: 1em; 
+}
+footer > p {
+	font-size: 1.2em;
+}
+#contact > h2 {
+	color: #fff;
+	padding-top: 7em;
+}
+footer { 
+width: 100%;
+background: no-repeat bottom;
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+background-size: 100% auto;
+}
+#credit {
+  font-size: 1em;
+  margin: 13em 0 0;
+  padding-bottom: 1em;
+  color: #fff;
+}
